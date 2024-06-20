@@ -1,0 +1,114 @@
+---
+format:
+  html:
+    toc: false
+repo-actions: false
+---
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+
+<style>
+
+.animated-text {
+  font-size: 90px;
+  color: #000;
+  font-family; 'Roboto';
+  text-align: center;
+}
+
+@keyframes letterAnimation {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(10px); }
+}
+
+#spin {
+  color:white;
+}
+#spin:after {
+  content:"";
+  padding: 15px;
+  border-radius: 20px;
+  animation: spin 16s linear infinite;
+}
+@keyframes spin {
+  0% { content: "JAVA";background-color:blue;}
+  10% { content:"REACT"; }
+  18% { content:"SPRING BOOT"; }
+  23% { content: "UML"; }
+  30% { content:"BASH"; }
+  36% { content:"MINDSET"; }
+  43% { content:"SCRUM";}
+  50% { content: "LINUX"; }
+  62% { content: "API REST"; }
+  74% { content: "DEVOPS"; }
+  86% { content: "AWS"; }
+  95% { content: "MARKDOWN"; }
+  100% { content: "QUARTO";background-color: red; }
+}
+
+
+</style>
+
+::: {.column-screen}
+
+<div class="animated-text">
+<p>Code </br><b><span id="spin"></span></b></br>Learn</p>
+</div>
+
+:::
+
+<div style="text-align:center;color:grey">
+
+
+</br></br>
+
+
+:::{.column-page}
+| Date | Type | Article | Content |
+| -- | -- | :-- | :-- |
+| 06/2024 | **Backlog** | 🗂 [Sprint Backlog](/ifcd0210-24/ifcd0210backlog-sprint-24.qmd) | Sprint Backlog IFCD0210-24  |
+| 06/2024  | **Backlog** | 🗃 [Product Backlog](/ifcd0210-24/ifcd0210backlog-product-24.qmd) | Product Backlog IFCD0210-24  |
+| 06/2024 |    <mark>Java EE</mark> | ![](/images/home/java-logo.png){width="5%"} [Spring Boot Assistant AI](https://github.com/AlbertProfe/AssistantAI/wiki) | Spring Boot Assistant AI  |
+| 06/2024 |    <mark>Java EE</mark> | ![](/images/home/java-logo.png){width="5%"} [Spring Boot JPA: JPQL & queries](https://github.com/AlbertProfe/simulations/wiki/simulations-v1.1) | Spring Boot Queries  |
+| 05/2024 |    <mark>React JS</mark> | ![](/images/home/react-log.png){width="5%"} [Authentication ReactJS Cognito Identity User Pool AWS SDK JS v3](https://github.com/AlbertProfe/authReactCognitoJS/wiki) | React JS AWS SDK, Auth, Cognito lab  |
+| 05/2024 |    <mark>React JS</mark> | ![](/images/home/react-log.png){width="5%"} [Chat React JS & AWS Server](https://github.com/AlbertProfe/Chat/wiki) | React JS AWS, WebSocket, Semantic CSS lab  |
+| 04/2024 | 📘 **Book** | ![](/images/home/new-icon-1497910_1280.png){width="6%"} [Expert One-on-One J2EE™ Design and Development](/books/j2ee.qmd)| New added book on programming Java EE |
+| 04/2024 |    <mark>Java EE</mark> | ![](/images/home/java-logo.png){width="5%"} [Spring Framework & Boot is now 20 & 10 years old: 2004-2014-2024](/spring/spring-basics.qmd#boot-2024) | Spring timeline  |
+| 03/2024 |    <mark>Java EE</mark> | ![](/images/home/java-logo.png){width="5%"} [Simulation wiki github](https://github.com/AlbertProfe/simulations/wiki) | Spring Boot, JPA, H2 DB, API Rest  |
+| 03/2024 |    <mark>React JS</mark> | ![](/images/home/react-log.png){width="5%"} [Lab#RE07-1: traffic lights Simulation](/reactjs/rjslab7-1.qmd) | React JS data, form and hooks lab  |
+| 02/2024 | 📜 News | ![](/images/home/new-icon-1497910_1280.png){width="6%"} [Technology Trends for 2024](https://www.oreilly.com/radar/technology-trends-for-2024/){.external target='_blank'} | Where the Industry Is Headed  |
+| 02/2024 | 📘 **Book** | ![](/images/home/new-icon-1497910_1280.png){width="6%"} [Playing to win](/books/playingtowin.qmd)| New added book on strategy    |
+| 01/2024 |  <mark>Java SE</mark> | ![](/images/home/java-logo.png){width="5%"} [Lab#SE04-1: healthyFood Restaurant, Core Model](/javase/selab4-1.qmd) | Java SE UML lab  |
+| 01/2024 |    <mark>React JS</mark> | ![](/images/home/react-log.png){width="5%"} [Lab#RE06-1: healthyFood Restaurant](/reactjs/rjslab6-1.qmd) | React JS composition lab  |
+: New / updated articles {tbl-colwidths="[10,10,50,30]" .striped .hover}
+:::
+
+</br></br>
+
+[SCRUM](/scrum/scrum-what-concepts.qmd) agile framework |   [Before SCRUM](/scrum/scrum-week10.qmd) management | SCRUM of SCRUM: [Less](/scrum/scrum-week14.qmd#scrum-of-scrum-less) | Team Work, What is it? | [Team Dynamics](/scrum/scrum-week11.qmd), how to manage  | [Mindset](/scrum/scrum-week5.qmd), the key for everything  | [Emotions](/scrum/scrum-week12.qmd) and Thoughts | Managing mind and [time](/scrum/scrum-week7.qmd) | [Beyond SCRUM](/scrum/scrum-week14.qmd)
+
+
+DDD: Domain-driven design |  [Microservices](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf) design system |  [Spring Boot](https://spring.io/) framework | SPA, Single Page App |    Multi-page and server side rendering |    Cloud serveless: [AWS](https://aws.amazon.com/) |  APIs: REST, Websockets, SOAP, GraphQL |  [Kafka](https://kafka.apache.org/intro), event streaming 
+ 
+
+Scripting: [BASH](/linux/linux-what-bash.qmd), (short for “Bourne again shell”) is a Unix shell |  Structured and Procedural: C |   OOP (Object-Oriented Programming): [Java SE](https://java-programming.mooc.fi/) |  COP (Components-Oriented Programming): [React JS](https://reactjs.org/) and [React TS](https://www.typescriptlang.org/docs/handbook/react.html)  
+ 
+ 
+
+[Git](/devops/devops-vc-git.qmd), a version control system |  [Git](https://git-scm.com/) is used for source code management |   [GitHub](https://github.com/) git on cloud |  GitLab / Subversion |   [Idea](/devops/devops-vc-ideagithub.qmd) and GitHub 2023 |  [Git and GitHub 2023 CLI](/devops/devops-vc-gitgh.qmd) |  [CLI gH](https://cli.github.com/), to your terminal |   IDE: [Visual Code](/devops/devops-ide-visualcode.qmd) / IntellJ Idea 
+ 
+  
+
+[about this site](about/about-this-site.qmd), for documentation example. |  [JUnit for Spring Boot](https://junit.org/junit5/) |  [Jest for JS React](https://jestjs.io/) |  Deploy on Heroku, Netlify, AWS Amplify |  [Jenkins](https://www.jenkins.io/), [Docker](https://www.docker.com/) and [k8s](https://kubernetes.io/) 
+ 
+
+
+
+[Artificial Intelligence (AI):](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) What It Is and How It Is Used |  Machine Learning |  Natural language & prompts |  [DALL-E](https://www.investopedia.com/openai-rolls-out-upgraded-ai-image-generation-tool-with-dall-e-3-7972607) text-to-image tool |  [ChatGPT](https://openai.com/blog/chatgpt) |  Artificial General Intelligence (AGI) |  AI is categorized into four types  
+
+
+<div>
+
+
+
